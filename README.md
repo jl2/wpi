@@ -18,7 +18,7 @@ Next, start a REPL or Slime as root:
 sudo emacs --user $USER -f slime
 ```
 
-Finally, connect and LED to GPIO pin 4 (wiringPi pin 7) run the following:
+Finally, connect an LED to GPIO pin 4 (wiringPi pin 7) and run the following:
 
 ```commonlisp
 (ql:quickload 'wpi)
@@ -33,6 +33,8 @@ Finally, connect and LED to GPIO pin 4 (wiringPi pin 7) run the following:
 	(sleep 0.5)))
 (blink 10)
 ```
+
+If everything is configured and working correctly, there should be no error messages, and the LED should blink 10 times.
 
 # Notes
 wiringPi, and hence this library, require running as the root user.
