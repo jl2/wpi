@@ -41,6 +41,6 @@ wiringPi, and hence this library, require running as the root user.
 
 This Common Lisp binding is released under the ISC license, but wiringPi itself is under the LGPL.
 
-This library has not yet been tested very well (yet).  Basic functionality seems to work, but I have not yet tested the more advanced wiringPi features, like i2c and SPI.  Any help would be appreciated, and please create issues for any bugs.
+This library has not been tested very well (yet).  Basic functionality works, but I haven't tested more advanced features, like i2c and SPI.  Any help would be appreciated, and please create issues for any bugs.
 
 
